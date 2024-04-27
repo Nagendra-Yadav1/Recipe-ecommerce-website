@@ -1,0 +1,260 @@
+main{
+    background-color: white;
+
+}
+.sop-n{
+    height: 30px;
+    width:98vw;
+    position: relative;
+    top: 0px;
+    position: fixed;
+    display: flex;                                                                                                 
+    gap:5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: transparent;
+    background-color: rgb(101, 100, 100);
+}
+.sho-p{
+    margin: 0%;
+    margin-top:5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #000;
+    bottom: 20px;
+    font-weight: 600;
+}
+span{
+    margin-left: 10px;
+    color:grey;
+    font-size: 12px;
+    display: inline;
+    background-color:white;
+}
+.a{
+    color: black;
+    background-color:chocolate;;
+}
+.main-img-x{
+    width: 96vw;
+    margin: 1vw;
+}
+.nav-p{
+    color: black;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: 5px;
+}
+.nav-p:hover{
+    color:chocolate;
+}
+.main-h{
+    text-align: center;
+    color:blue;
+    box-shadow: rgba(253, 228, 228, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-bottom: 50px;
+}
+
+.Dals{
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    width: 80vw ;
+    height: 400px;
+    margin-top: 63px;
+    box-shadow: rgba(253, 228, 228, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    transition: all 0.3s ease-in-out;
+}
+.scroll{
+    display: flex;
+    flex-direction: row;
+   
+}
+    
+.box1{
+    height: 300px;
+    width: 200px;
+    border: 4px solid gray;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+.box1:hover{
+    background-color:bisque ;
+    color: #000;
+    transform: scale(1.05);
+}
+.box3{
+    height: 300px;
+    width: 200px;
+    border: 4px solid gray;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+.box3:hover{
+    background-color:bisque ;
+    color: #000;
+    transform: scale(1.05);
+}
+    
+.box2{
+    height: 300px;
+    width: 200px;
+    border: 4px solid gray;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+.box2:hover{
+    background-color:bisque ;
+    color: #000;
+    transform: scale(1.05);
+}
+
+.box4{
+    height: 300px;
+    width: 200px;
+    border: 4px solid gray;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0,0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    
+}
+.box4:hover{
+    background-color:bisque ;
+    color: #000;
+    transform: scale(1.05);
+}
+
+
+.Pulses{
+    /* gap: 20px; */
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.img-sho{
+    height: 150px;
+    width: 150px;
+    margin: 0%;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.add{
+    color: white;
+    background-color: #0000ff;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+.add:hover{
+    background-color:rgb(12, 139, 202);
+    transform: scale(1.05);
+    border: 2px solid gray;
+}
+.buy{
+    color: white;
+    background-color: rgb(177, 173, 172);
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    color: #000;
+    border: none;
+}
+.buy:hover{
+   border: 2px solid grey;
+   background-color:rgb(202, 91, 12);
+    transform: scale(1.05);
+}
+.i-h{
+    color: rgb(3, 3, 76);
+    text-align:center;
+
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.btn1{
+    height: 30px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: transparent;
+
+}
+.but{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+.paise{
+    display: flex;
+    justify-content: space-between;
+}
+h2{
+    color: #000;
+}
+.footer-sho{
+    display: flex;
+    justify-content: space-around;
+    background-color:black;
+    color: white;
+    padding: 55px;  
+    margin-top: 77px;   
+}
+.txt p{
+    margin-top: 12px;
+}
+
+.s{
+    height: 20vw;
+    width: 90vw;
+    margin: 4vw;
+}
+
+.add-el{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 5vw;
+    
+}
+.cart{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    box-shadow: rgba(223, 218, 218, 0.35) 0px 5px 15px;
+}
+.cart :hover{
+    background-color: rgb(83, 83, 207);
+}

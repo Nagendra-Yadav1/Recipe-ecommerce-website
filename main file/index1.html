@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <img class="nav-img" src="https://img.freepik.com/premium-vector/logo-food-catering-that-is-called-food-catering_540027-2.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1710460800&semt=ais" alt="logo">
+            <div class="nav-i">
+                <div class="nav-i">
+                    <a class="nav-a" style="text-decoration: none;" href="../index.html">
+                        <p>Home</p>
+                    </a>
+                    <a class="nav-a" style="text-decoration: none;"  href="./main file/index1.html">
+                        <p>Veg food</p>
+                    </a>
+                    <a class="nav-a" style="text-decoration: none;"  href="./file1/indexnonveg.html">
+                        <p>Nonveg food</p>
+                    </a>
+                    <a class="nav-a" style="text-decoration: none;"    href="./indexay.html">
+                        <p>Sweets</p> 
+                    </a>
+                    <a class="nav-a"  style="text-decoration: none;"  href="./shopping.html">
+                        <p>Shop</p>
+                    </a>
+    
+                    <div class="nav-in">
+                        <input type="text" id="searchInput" placeholder="Search...">
+                        <button class="search-button" onclick="search()">Search</button> 
+                    </div>
+                    <button class='loginbtn'onclick="document.getElementById('login-form').style.display='block'" style="width:auto;">Login</button>
+                    <button class='loginbtn'onclick="document.getElementById('register-form').style.display='block'" style="width:auto;">Register</button>
+                </nav>
+            </div>
+        </div>
+            <div id='login-form' class="login-page">
+                <div class="form-box">
+                    <span onclick="document.getElementById('login-form').style.display='none'" class="close">&times;</span>
+                    <div class="form">
+                        <form class='login-form'>
+                            <h1 class="main-heading">Login Form</h1>
+                            <input type="text"name='emailid' placeholder="Email ID", required/>
+                            <input type="password" name='password' placeholder="password", required/>
+                            <button>LOGIN</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="register-form" class='register-page'>
+                <div class="form-box">
+                   <span onclick="document.getElementById('register-form').style.display='none'" class="close">&times;</span>
+                    <div class="form">
+                        <form class='register-form'>
+                            <h1 class="main-heading">Register Form</h1> 
+                            <input type="text" name='user'placeholder="user name" required/>
+                            <input type="text" name='emailid'placeholder="email-id" required/>
+                            <input type="password"name='password' placeholder="password" required/>
+                            <button>REGISTER</button> 
+                        </form>
+                    </div>
+                </div>
+            </div>
+           <div class="nav-ul">
+                
+                <div id="list">
+                    
+                    <ul>
+                        
+                        <li><a href="./file/Momos.html">momos</a></li>
+                        <li><a href="./file/Burger.html">burger</a></li>
+                        <li><a href="./file/Choley bhature.html">choley bhature</a></li>
+                        <li><a href="./file/Daal_chawal.html">daal chawal</a></li>
+                        <li><a href="./file/kadi_chawal.html">kadi chawal</a></li>
+                        <li> <a href="./file/Palak_paneer.html">palak paneer</a></li>
+                        <li><a href="./file/Paneer_roti.html">paneer roti</a></li>
+                        <li> <a href="./file/Pulao.html">pulao</a></li>
+                        <li><a href="./file/Rajma_chawal.html">rajma chawal</a></li>
+                        <li><a href="./file/Samosa.html">Samosa</a></li>
+                        <li><a href="./file/Spring_roll.html">spring roll</a></li>
+                        <li><a href="./file1/grillbiryani.html">grillbiryani</a></li>
+                        <li><a href="./file1/kabab.html">kabab</a> </li>
+                        <li><a href="./file1/kababkorner.html">kababkorner</a></li>
+                        <li> <a href="./file1/kababmagic.html">kababmagic</a></li>
+                        <li> <a href="./file1/lazeezchicken.html">lazeezchicken</a></li>
+                        <li><a href="./file1/punjabichicken.html">punjabichicken</a></li>
+                        <li><a href="./file1/punjabidhabachicken.html">punjabidhabachicken</a></li>
+                        <li><a href="./file1/punjabigrillchicken.html">punjabigrillchicken</a></li>
+                        <li><a href="./file1/sultanchicken.html">sultanchicken</a></li>
+                        <li> <a href="./file1/tadooritall.html">tadooritall</a> </li>
+                        <li><a href="./indexay.html">sweets</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <p style="color: black;text-align:center;font-size:20px;font-weight:700">OUR VEG VERITY</p>
+    <div class="bigbox">
+    
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://th.bing.com/th/id/OIP.MEO2s8eoPwBHZ0MQ0gzMCgAAAA?rs=1&pid=ImgDetMain" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Chole Bhature</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Chole bhature is a food dish popular in the northern areas of the Indian.It is spicy white chickpeas and bhatura,a deep-fried bread made from maida.</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/chole-bhature/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Choley bhature.html">Varity</a></button>
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLsvWnyIRGs7J1xqbQvhLHWAUPfKn7LH8kUQ&s" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Paneer Bhuna Masala</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Cottage cheese cubes tossed into Currygram Bhuna Gravy combine to create a delicious treat.rich sauce or just a tasty and hearty curry for dinner</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Paneer_roti.html">Varity</a></button>
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://images.getrecipekit.com/20230821060349-palak-20paneer.jpg?aspect_ratio=16:9&quality=90&" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Palak Paneer</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Palak Paneer, a beloved Indian dish,northern regions of India and has become a favorite worldwide. Also known as Saag Paneer. </p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Palak_paneer.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://t3.ftcdn.net/jpg/02/39/63/12/240_F_239631263_1bWAVX7VKHqxvPuDGRGPCLwHzxI0MX4E.jpg" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Pulao</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Pulao or Pilaf is a rice dish made by combining mild spices and an assortment of vegetables to give it an aromatic flavor.</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Pulao.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://content.jdmagicbox.com/comp/delhi/j1/011pxx11.xx11.190815184130.t4j1/catalogue/dal-chawal-and-co--palam-delhi-restaurants-0chuxc5yul.jpg" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Dal Chawal Thali</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Dal Chawal is the ultimate comfort food.
+                Dal is a curry, made with cooked lentils in a curry with aromatics like onions,tomatoes,and other spices.</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Daal_chawal.html">Varity</a></button>
+
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://punjabibyflavor.com/cdn/shop/files/KadhiChawal_4075afec-9fb0-42ad-866a-76ceb2c0cc21.jpg?v=1709086127" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Khadi Chawal</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Kadhi chawal is a popular originating from India.Kadhi is prepared by mixing Curd,Besan and diffrent spices.It is served with boiled rice .</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/kadi_chawal.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://lovelaughmirch.com/wp-content/uploads/2011/08/KASHMIRI-RAJMA-_2.jpg" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Rajma Chawal</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Rajma Chawal is belongs North Indian where Rajma is served with Chawal.you can add salad need to enjoy this delicious dish.</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Rajma_chawal.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://t4.ftcdn.net/jpg/05/81/88/11/240_F_581881180_oZczFvKVbEaC8AxLDbxuO5zM2p2ztiw7.jpg" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Momos</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Momos are a type of steamed filled dumpling in Tibetan and Nepali cuisine that is also popular in neighbouring Bhutan and India</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Momos.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://yummyrecipe.co.in/wp-content/uploads/2023/08/1658765235448.jpg" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Spring Roll</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Children keep a demand for some tasty food at home.you can prepare veg spring roll for them. This food dish can also be kept in tiffin box.</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Spring_roll.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://media.istockphoto.com/id/502663991/photo/punjabi-samosa-23.jpg?s=612x612&w=0&k=20&c=Ne0ArOpa-4L2N-INtPnq371fFZoM6qWW6R4ryN9TWW0=" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px;">Samosa</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">The samosa is prepared with an all-purpose flour and stuffed with a filling boiled potato, onions, ginger, spices and green chili. </p>
+           <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Samosa.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://e1.pxfuel.com/desktop-wallpaper/263/121/desktop-wallpaper-burger-momtaz-high-resolution.jpg" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Burger</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">A burger is a patty of ground beef grilled and placed between two bun. Slices of raw onion, bacon, mayonnaise, and other ingredients     .</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Burger.html">Varity</a></button>
+
+        </div>
+        <div class="box">
+            <div class="photo">
+                <img class="image" src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/gagrvwzmiotepvhbcxjx" alt="chole">
+            </div>
+            <div class="just">
+                <h3 style="margin: 0%;margin-left:20px;margin-top:10px">Mater Paneer</h3>
+                <img style="height:20px;width:20px; margin-right:20px ;margin-top:10px" src="https://freesvg.org/img/1531813273.png" alt="veg">
+            </div>
+            <p style="text-align:justify;margin-left:20px;margin-right:20px;font-style:italic">Matar paneer is a popular dish in Indian cuisine.It is made with peas and paneer,spicy tomato-based gravy as well as its bold and flavorful spices.</p>
+            <button class="font"><a style="text-decoration:none; color:black;" href="https://www.vegrecipesofindia.com/recipes/">Recipes</a></button>
+            <button class="font"><a style="text-decoration:none; color:black;" href="file/Paneer_roti.html">Varity</a></button>
+        </div>
+    </div>
+        <script src="./script.js"></script>
+</body>
+</html>

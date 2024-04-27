@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    padding-top: 100px;
+}
+.minicard{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.header{
+    margin-top: 100px;
+}
+.maincard{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center; 
+    height: 450px;
+    width: 100vw;
+    gap: 3rem;
+    /* margin-left: 250px */
+    /* border: 2px solid red; */
+    
+
+}
+h1{
+    color: black;
+    font-weight: 900;
+    font-size: 3rem;
+}
+span{
+    color: rgba(248, 196, 83, 0.863);
+}
+
+.card{
+    border: 10px solid white;
+   background-color: wheat;
+   width: 300px;
+   height: 400px;
+   border-radius: 5px;
+   box-shadow: 15px 10px 19px 9px rgb(197, 174, 174) ;
+   transform: 1s;
+   
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    z-index: 2;
+
+}
+h2{
+    line-height: 30px;
+    color: black;
+    background-color: wheat;
+}
+.p-s{
+    line-height: 22px;
+    /* border: 2px solid gray; */
+    color: black;
+    background-color: wheat;
+}
+button{
+    height: 25px;
+    line-height: 20px;
+    width: 100px;
+    font-size: 14px;
+    margin-left: 10px;
+    background-color: wheat;
+    border-radius: 5px;
+    background-color: rgba(248, 196, 83, 0.863);
+    color: black;
+    border: white;
+    cursor: pointer;
+}
+
+
+
+/* navbar css */
+
+nav {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    top: 1px;
+    left: 0px;
+    position: fixed;
+    gap: 30px;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 0px 20px 5px gainsboro;
+    flex-wrap: wrap;
+}
+
+#searchInput{
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+}
+
+.nav-img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 0.2vw;
+    /* left: 3vw; */
+}
+
+.search-button {
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+}
+
+.search-button:hover {
+    background-color: rgb(12, 154, 215);
+}
+
+.nav-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-nav {
+    gap: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-i {
+    gap: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p:hover {
+    color: red;
+}
+ul{display: none;}
+.nav-a{
+    font-size: 25px;
+    color:white;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 200px;
+        font-size: 20px;
+    }
+    .nav-img{
+        top: 1vw;
+    }
+
+    .nav-in {
+
+        order: 4; 
+        padding: 3vw;
+       
+    }
+    body{
+        position: relative;
+        top: 170px;
+    }
+
+    #inputBox {
+        width: 80%; 
+    }
+
+    .search-button {
+        width: 20%; 
+    }
+}

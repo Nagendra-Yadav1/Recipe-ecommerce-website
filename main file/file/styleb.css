@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    
+
+}
+.container{
+    position: relative;
+    top: 90px;
+    width: 24rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+.container .card{
+    width: 18rem;
+    height: 24rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+
+}
+.container .card img{
+    width: 18rem;
+    height: 9rem;
+    object-fit: cover;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.container .card h2{
+    text-align: center;
+    margin: 0.5rem;
+    color: brown;
+    font-style: italic;
+}
+.container .card p{
+    text-align: center;
+    line-height: 23px;
+    margin: 0 0.5rem;
+    font-style: oblique;
+
+}
+.container .card button{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    padding: 0.8rem 1rem;
+    background-color: plum;
+    cursor: pointer;
+    border-radius: 2rem;
+    
+    border: none;
+}
+.container .card h5{
+    text-align: center;
+    margin: 0.8rem;
+    background-color: pink;
+    font-style: oblique;
+    height: 1rem
+}
+.container .card:hover {
+    background-color: khaki;
+    transform: scale(1.05);
+
+}
+
+/* navbar css */
+
+nav {
+    display: flex;
+    z-index: 1;
+    position: relative;
+    top: 1px;
+    left: 0px;
+    position: fixed;
+    gap: 30px;
+    width: 100vw;
+    height: 60px;
+    text-align: center;
+    background-color: black;
+    font-size:30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 0px 20px 5px gainsboro;
+    flex-wrap: wrap;
+}
+
+#searchInput{
+    border-radius: 15px;
+    height: 30px;
+    width: 200px;
+}
+
+.nav-img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 0.2vw;
+    /* left: 3vw; */
+}
+
+.search-button {
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: white;
+    background-color: blue;
+}
+
+.search-button:hover {
+    background-color: rgb(12, 154, 215);
+}
+
+.nav-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icon-nav {
+    gap: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-i {
+    gap: 4vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p:hover {
+    color: red;
+}
+ul{display: none;}
+.nav-a{
+    font-size: 25px;
+    color:white;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 200px;
+        font-size: 20px;
+        position: absolute;
+    }
+    .nav-img{
+        top: 1vw;
+    }
+    .main-x{
+        position: relative;
+        top: 100px;
+    }
+  
+    .nav-in {
+
+        order: 4; 
+        padding: 3vw;
+       
+    }
+    body{
+        gap: 50px;
+    }
+
+    #inputBox {
+        width: 80%; 
+    }
+
+    .search-button {
+        width: 20%; 
+    }
+}
